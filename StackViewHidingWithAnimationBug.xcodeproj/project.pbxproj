@@ -54,14 +54,22 @@
 		44986ACB1E2BAE7B00E11C86 /* StackViewHidingWithAnimationBug */ = {
 			isa = PBXGroup;
 			children = (
-				44986ACC1E2BAE7B00E11C86 /* AppDelegate.swift */,
-				44986ACE1E2BAE7B00E11C86 /* ViewController.swift */,
 				44986AD01E2BAE7B00E11C86 /* Main.storyboard */,
+				44986ACE1E2BAE7B00E11C86 /* ViewController.swift */,
+				44986ADE1E2BF0EC00E11C86 /* Other */,
+			);
+			path = StackViewHidingWithAnimationBug;
+			sourceTree = "<group>";
+		};
+		44986ADE1E2BF0EC00E11C86 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				44986ACC1E2BAE7B00E11C86 /* AppDelegate.swift */,
 				44986AD31E2BAE7C00E11C86 /* Assets.xcassets */,
 				44986AD51E2BAE7C00E11C86 /* LaunchScreen.storyboard */,
 				44986AD81E2BAE7C00E11C86 /* Info.plist */,
 			);
-			path = StackViewHidingWithAnimationBug;
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
