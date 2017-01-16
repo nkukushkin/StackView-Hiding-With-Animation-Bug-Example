@@ -7,10 +7,10 @@ When hiding a view withing a UIStackView using UIView animation API multiple tim
 
 Steps to reproduce:
 	
-	1. Make sure "Animated" switch is on
-	2. Tap [Hide] more than 3-4 times
-	3. Tap [Show]
-	4. Observe that the blue view doesn't appear
-	5. Tap [Show] until blue view appears
+    1. Add arranged subviews to `UIStackView`
+    2. Call `isHidden = true` withing an `UIView` animation block on one of the subviews multiple times (4+ is should be enough to reproduce this issue)
+    3. Call `isHidden = false` on the same subview
+    4. Observe that it doesn't appear and still has `isHidden` set to `true`
+    5. Call `hidden = false` until the the property actually changes to `false`
 
 ![demostration](Demonstration.gif?raw=true)
