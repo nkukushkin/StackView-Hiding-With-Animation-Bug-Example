@@ -1,6 +1,6 @@
 ## StackView Hide With Animation Bug Example
 
-This is a bug that exists in iOS 10.2-10.3.2 (didn't check on previous versions).
+This is a bug that exists in iOS 10.2+ (didn't check on previous versions).
 
 ### Description:   
 When hiding an arrangedSubview of an `UIStackView` using UIView animation API multiple times, the `isHidden` property values "stack" and it requires settigns `isHidden` to `false` multiple times before the value updates.
